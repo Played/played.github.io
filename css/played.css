@@ -1,0 +1,13 @@
+.appstorebadge {
+  margin-left: auto;
+  margin-right: auto;
+  width: 9rem;
+}
+
+@media (min-width: 48rem) {
+  .appstorebadge {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 9rem;
+  }
+}
