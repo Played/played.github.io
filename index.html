@@ -1,10 +1,11 @@
 <script type="text/javascript">
- 
+ var userLang = navigator.language || navigator.userLanguage;
 
-
+ if(userLang.substring(0,2) == "sv") {
+   	userLang = "sv"
+ }else {
+ 	userLang = "en"
+ }
  
- 
- 
- 
-  window.location.pathname = "sv"
+  window.location.pathname = userLang
 </script>
